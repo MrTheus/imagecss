@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/storm.css" />
+    <link rel="stylesheet" href="css/prism.css" />
+    <link rel="stylesheet" href="dist/imagecss.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <nav class="nav middle-xs nav-fixed">
+    <a href="#" class="nav-brand">imagecss</a>
+    <div class="nav-items around-xs">
+        <div class="nav-item">
+            <a href="#polaroid">Polaroid</a>
+        </div>
+        <div class="nav-item">
+            <a href="#text">Text</a>
+        </div>
+        <div class="nav-item">
+            <a href="#filter">Filter</a>
+        </div>
+        <div class="nav-item">
+            <a href="#gallery">Gallery</a>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 id="polaroid">Polaroid</h2>
+            </div>
+            <div class="col-xs-12">
+                <div class="img-container">
+                    <div class="img-polaroid">
+                        <img class="img-centered" src="img/test.jpg" />
+                        <div class="img-polaroid-text">
+                            <p>Hello.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs">
+                <pre><code class="language-markup">&lt;div class=&quot;img-container&quot;&gt;
+    &lt;div class=&quot;img-polaroid&quot;&gt;
+        &lt;img class=&quot;img-centered&quot; src=&quot;your-image.jpg&quot; /&gt;    
+        &lt;div class=&quot;img-polaroid-text&quot;&gt;
+            &lt;p&gt;Your text here.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <div class="col-xs-12">
+                <h2 id="text">Text</h2>
+            </div>
+            <div class="col-xs-12">
+                <div class="img-container">
+                    <div class="img-text-container">
+                        <img class="img-opacity-30" src="img/test.jpg" />
+                        <p class="img-text-topleft">Top Left</p>
+                        <p class="img-text-topright">topr</p>
+                        <p class="img-text-bottomleft">botl</p>
+                        <p class="img-text-bottomright">botr</p>
+                        <p class="img-text-center">center</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <pre><code class="language-markup">&lt;div class=&quot;img-container&quot;&gt;
+    &lt;div class=&quot;img-text-container&quot;&gt;
+        &lt;img class=&quot;img-opacity-30&quot; src=&quot;your-image.jpg&quot; /&gt;
+        &lt;p class=&quot;img-text-topleft&quot;&gt;Top Left&lt;/p&gt;
+        &lt;p class=&quot;img-text-topright&quot;&gt;topr&lt;/p&gt;
+        &lt;p class=&quot;img-text-bottomleft&quot;&gt;botl&lt;/p&gt;
+        &lt;p class=&quot;img-text-bottomright&quot;&gt;botr&lt;/p&gt;
+        &lt;p class=&quot;img-text-center&quot;&gt;center&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 id="filter">Filter</h2>
+                </div>
+                <div class="img-gallery">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-black-and-white" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-black-and-white&quot; /&gt;</code></pre>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-blur" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-blur&quot; /&gt;</code></pre>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-brightness" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-brightness&quot; /&gt;</code></pre>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-contrast" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-contrast&quot; /&gt;</code></pre>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-huerotate" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-huerotate&quot; /&gt;</code></pre>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-invert" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-invert&quot; /&gt;</code></pre>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-saturate" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-saturate&quot; /&gt;</code></pre>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-sepia" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-sepia&quot; /&gt;</code></pre>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="img-shadow" src="img/test.jpg" />
+                        <pre><code class="language-markup">&lt;img class=&quot;img-shadow&quot; /&gt;</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 id="gallery">Responsive Image Gallery</h2>
+                </div>
+                <div class="img-gallery">
+                    <div class="col-xs">
+                        <img src="img/test.jpg" />
+                    </div>
+                    <div class="col-xs">
+                        <img src="img/test.jpg" />
+                    </div>
+                    <div class="col-xs">
+                        <img src="img/test.jpg" />
+                    </div>
+                    <div class="col-xs">
+                        <img src="img/test.jpg" />
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <pre><code class="language-markup">&lt;div class=&quot;img-gallery&quot;&gt;
+    &lt;div class=&quot;col-xs&quot;&gt;
+        &lt;img src=&quot;your-image.jpg&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-xs&quot;&gt;
+        &lt;img src=&quot;your-image.jpg&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-xs&quot;&gt;
+        &lt;img src=&quot;your-image.jpg&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-xs&quot;&gt;
+        &lt;img src=&quot;your-image.jpg&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+        </div>
+        <script src="js/prism.js"></script>
+</body>
+
+</html>
