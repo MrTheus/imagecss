@@ -3,7 +3,7 @@ body {
     padding-top: 70px;
 }
 
-h2:before {
+h1:before {
     display: block;
     content: " ";
     margin-top: -50px;
